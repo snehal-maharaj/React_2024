@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body 
+{
+    position: relative;
+}
+.full-width-div
+{
+    background-color: rgb(46, 46, 46);
+    width:100vw;
+    height: 100vh;
+}
+.btn 
+{
+    padding:5px;
+    background-color:rgb(127, 14, 14);
+    margin: 10px;
+    border-radius: 50px;
+    min-width:100px;
+    border:1px solid white;
+}
+.all-fiexed-buttons {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.fixed-buttons
+{
+    background-color:white;
+    border-radius:50px;
+    display:inline-flex;
+    flex-wrap: wrap;
+}
+.red-btn
+{
+    background-color: rgb(248, 57, 57);
+    color: white;
+}
+.green-btn
+{
+    background-color: rgb(65, 95, 65);
+    color: white;
+}
+.pink-btn
+{
+    background-color: palevioletred;
+    color: white;
+}
+.blue-btn
+{
+    background-color: rgb(30, 66, 103);
+    color: white;
+}
+.black-btn
+{
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+.yellow-btn
+{
+    background-color: rgb(237, 196, 35);
+    color: rgb(29, 28, 28);
+}
