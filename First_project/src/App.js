@@ -1,9 +1,8 @@
 
-import Counter from "./Counter";
-import Card from "./Card";
-import BgChanger from "./BgChanger";
+import React from 'react';
 import "./index.css";
 import { useState } from "react";
+import MainPage from "./page/mainPage";
 function App() {
 
   // let myArr = 
@@ -16,10 +15,7 @@ function App() {
 
   return (
     <>
-     <BgChanger/>
-     {/* <Counter/> */}
-     {/* <br /> */}
-     {/* <Card username='Snehal' btnValue="Click Me"/> */}
+     <MainPage/>
     </>
   );
 }
