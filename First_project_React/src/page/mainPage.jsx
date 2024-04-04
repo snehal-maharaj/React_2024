@@ -3,10 +3,6 @@ import "./mainPage.css"
 export default function mainPage() {
   return (
     <div>
-        {/* <BgChanger/> */}
-        {/* <Counter/> */}
-        {/* <br /> */}
-        {/* <Card username='Snehal' btnValue="Click Me"/> */}
         <div className="main_page_wrapper">
             <div className="container-fluid">
                 <div className="row">
